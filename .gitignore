@@ -1,0 +1,63 @@
+# 1. Entornos Virtuales de Python
+venv/
+env/
+*.venv
+.env
+.venv
+
+# 2. Archivos de Datos y Modelos
+*.csv
+*.tsv
+*.json
+*.parquet
+*.dat
+
+# Modelos de Machine Learning entrenados
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pt
+
+# 3. Archivos y Caches de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 4. Frontend
+/node_modules
+/dist
+/build
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 5. Archivos de Configuración y Secretos
+.env
+.env.*
+!.env.example  # Excepción: permite subir un archivo de ejemplo.
+
+# 6. Archivos de Notebooks y Caches
+.ipynb_checkpoints/
+
+# 7. Archivos de Testing y Cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 8. Archivos específicos del Sistema Operativo
+.DS_Store
+Thumbs.db
+._*
+
+# 9. Archivos de Editor de Código
+# Configuraciones específicas de tu editor que no deben compartirse.
+.vscode/
+.idea/
+
+# 10. Archivos de Logs
+# Cualquier archivo de log generado durante la ejecución.
+*.log
+*.log*
